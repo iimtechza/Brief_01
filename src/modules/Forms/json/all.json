@@ -1,0 +1,35 @@
+{
+  "forms": {
+    "organisation": {
+      "fields": [
+        {
+          "label": "Title".
+          "default": "ACME Corp",
+          "action": "none",
+          "type": "text"
+        },
+        {
+          "label": "Overview".
+          "default": "ACME Corp is an online retailer.",
+          "action": "none",
+          "type": "text"
+        },
+        {
+          "label": "Accounts".
+          "help": "How many primary accounts do you want to configure?",
+          "default": "4",
+          "action": "none",
+          "type": "text"
+        },
+        {
+          "label": "Allocate".
+          "help": "Create an initial configuration.",
+          "default": "0",
+          "action": "none",
+          "type": "component",
+          "component": "Allocate_Sliders"
+        }
+      ]
+    }
+  }
+}
